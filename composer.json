@@ -1,0 +1,27 @@
+{
+    "name": "SpaceGazeo/Color-PHP",
+    "license": "MIT",
+    "description": "For Color Math in PHP",
+    "keywords": ["php", "color"],
+    "homepage": "http://github.com/SpaceGazebo/Color-PHP",
+    "authors": [
+        {
+            "name": "Michael Parker",
+            "email": "michael@codebro.org",
+            "homepage": "http://www.codebro.org",
+            "role": "Contributing Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/SpaceGazebo/Color-PHP/issues",
+        "source": "https://github.com/SpaceGazebo/Color-PHP"
+    },
+    "require": {
+        "php": ">=5",
+    },
+    "autoload": {
+        "psr-0": {
+            "SpaceGazebo\\Color": "src/"
+        }
+    }
+}
